@@ -1,0 +1,467 @@
+*{
+    font-family: arial ;
+}
+
+body{
+    margin: 0;
+    background-color: #f9f7ed;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+
+/*================HEADER===================*/
+
+
+header .header2 .logo{
+    float: left;
+    width: 25%;
+    margin: 10px 0;
+}
+
+header .header2 .logo img{
+    width: 100%;
+    margin: 7px 0 2px;
+}
+
+header .header2 .nav{
+    float: right;
+    width: 75%;
+    text-align: right;
+}
+
+header .header2{
+    float: left;
+    background-color: rgba(255, 255, 240,0.6);
+    width: 100%;
+    box-shadow: 5px 0 10px #000000;
+}
+
+header .header2 .nav ul{
+    list-style: none;
+    margin: 28px 0;
+}
+
+header .header2 .nav ul li{
+    display: inline-block;
+    font-size: 17px;
+}
+
+header .header2 .nav ul li a{
+    color: rgb(170, 5, 7);
+    text-decoration: none;
+    padding: 24px 0;
+    margin: 0 20px
+}
+
+header .header2 .nav ul li:last-child a{
+    border: 1px solid rgb(170, 5, 7);
+    padding: 7px 7px;
+    border-radius: 2px;
+
+}
+
+header .header2 .nav ul li:last-child a:hover{
+    color: #f9f7ed;
+    background-color: rgb(170, 5, 7);
+    border: 1px solid rgb(170, 5, 7);
+    transition: 0.3s;
+}
+
+.banner{
+    background-image: url("../img/elevator_overlay.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 700px;
+    background-attachment: fixed;
+}
+
+header .header2 .nav ul li a:hover{
+    /*background-color: rgba(191, 1, 5, 0.3);*/
+    border-bottom: 5px solid rgb(170, 5, 7);
+    transition: 0.3s;
+}
+
+header .header1{
+    background-color: rgb(170, 5, 7);
+    float:left;
+    width: 100%;
+    color: #f9f7ed;
+}
+
+header .header1 h3{
+    margin: 10px 0;
+    font-weight: normal;
+    font-size: 12px;
+    float: left;
+    width: 50%;
+}
+
+header .header1 .contactlinks{
+    float: right;
+    width: 50%;
+    margin: 8px 0;
+}
+
+header .header1 ul{
+    list-style: none;
+    margin: 0;
+    float: right;text-align: right;
+}
+
+header .header1 ul li{
+    display: inline;
+    color: #f9f7ed;
+    font-size: 12px;
+    margin: 0 10px;
+}
+
+header .header1 ul li img{
+    width: 3%;
+    position: relative;
+    top: 3px;
+    left: 10px;
+}
+
+/*=========================BANNER=========================*/
+
+
+.banner{
+    background-image: url("../img/gears_overlay.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 300px;
+    background-attachment: fixed;
+}
+
+
+.banner h1{
+    margin: 5% 0;
+    color: #f9f7ed;
+    font-size: 50px;
+    float: left;
+    text-align: center;
+    width: 100%;
+    font-weight: normal;
+}
+
+
+/*========================MAIN=============================*/
+
+.main{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0 100px;
+}
+
+.main h1{
+    color: #AA0507;
+    font-size: 40px;
+    font-weight: normal;
+    padding: 10px 0;
+    border-bottom: 1px dotted #AA0507;
+}
+
+.main .creative{
+    text-align: center;
+}
+
+.main .mission,
+.main .jfi{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+}
+
+.main .text{
+    width: 70%;
+    padding: 0 25px;
+}
+
+.main img{
+    width: 20%;
+    padding: 25px;
+}
+
+.main .text p a{
+    color: #AA0507;
+    text-decoration: none;
+}
+
+.main .text p span{
+    color: #AA0507;
+}
+
+
+.main .prod{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 25px 0 50px;
+}
+
+.main .prod .elevator,
+.main .prod .escalator,
+.main .prod .hvac,
+.main .prod .mep{
+    width: 25%;
+    margin: 0 5px;
+    border-bottom: 3px solid #AA0507;
+    border-radius: 5px;
+    /*background-color: rgba(170, 5, 7,0.8);*/
+}
+
+.main .prod h3,
+.main .serve h3{
+    margin: -15px 0;
+    color: #AA0507;
+    font-weight: normal;
+    position: relative;
+    top: -30px;
+    padding: 10px 10px 16px;
+    background-color: rgba(255,255,255,0.7);
+    font-size: 15px;
+}
+
+.main .prod h3:hover,
+.main .serve h3:hover{
+    padding-bottom: 50px;
+    top: -40px;
+    margin: -32px 0;
+    transition: 0.3s;
+}
+
+.main .prod img,
+.main .serve img{
+    width: 100%;
+    padding: 0;
+    border-radius: 5px;
+}
+
+.main .prod a,
+.main .serve a{
+    color: #f9f7ed;
+    text-decoration: none;
+    margin: 0 70px;
+    padding: 10px 25px;
+    /*border: 1px solid #AA0507;*/
+    border-radius: 2px;
+    background-color: rgb(170, 5, 7);
+    top: 10px;
+    position: relative;
+    box-shadow: 0 3px 5px 0 #000000;
+}
+
+.main .serve a{
+    margin: 0 120px;
+}
+
+.main .prod a:hover,
+.main .serve a:hover{
+    text-decoration: none;
+    background-color: #820507;
+    transition: 0.3s;
+}
+
+.main .serve .install,
+.main .serve .maintain,
+.main .serve .consult{
+    width: 33%;
+    margin: 0 5px;
+    border-bottom: 3px solid #AA0507;
+    border-radius: 5px;
+    /*background-color: rgba(170, 5, 7,0.8);*/
+}
+
+.main .serve{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 25px 0 50px;
+}
+
+
+.main .contact,
+.main .quote{
+    text-align: center;
+}
+
+.main form input,
+.main form textarea{
+    display: block;
+    width: 50%;
+    margin: 0 auto 10px;
+}
+
+.main form input,
+.main form textarea,
+.main form select{
+    border-bottom: 3px solid #AA0507;
+    border-radius: 5px;
+    outline: none;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 5px;
+}
+
+
+
+.main form .dropdown{
+    display: inline-block;
+    width: 25%;
+    margin: 10px 0;
+}
+
+.main form .dropdown select{
+    width: 100%;
+}
+
+.main form label{
+    font-size: 14px;
+    display: block;
+}
+
+.main span{
+    color: #AA0507;
+    font-size: 25px;
+}
+
+.main form input.btn{
+    width: 25%;
+    color: #f9f7ed;
+    background-color: #AA0507;
+    border: none;
+    padding: 10px 0;
+    margin: 15px auto;
+}
+
+.main form input.btn:hover{
+    color: #f9f7ed;
+    background-color: #820507;
+    transition: 0.3s;
+}
+
+.main form{
+    margin: 35px 0;
+}
+
+/*========================FOOTER===========================*/
+
+footer .footer1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgb(170, 5, 7);
+    color: #f9f7ed;
+    box-shadow: 5px 0 10px #000000;
+}
+
+footer .footer1 h1{
+    font-weight: normal;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 2px dotted #f9f7ed;
+    font-size: 20px;
+}
+
+footer .footer1 .company,
+footer .footer1 .links,
+footer .footer1 .location{
+    width: 29%;
+    /*background-color: rgba(255, 255, 240,0.3 );*/
+    padding: 10px;
+    margin: 25px 15px 0;
+    float: left;
+    /*text-align: center;*/
+
+}
+
+footer .footer1 .company img{
+    width: 100%;
+}
+
+footer .footer1 .links ul{
+    padding: 0;
+    margin: 0;
+}
+
+footer .footer1 .links ul li{
+    list-style: none;
+    padding: 10px 5px;
+    margin: 0;
+    font-size: 15px;
+    border-bottom: 1px dotted #f9f7ed;
+
+}
+
+footer .footer1 .links ul li a{
+    color: #f9f7ed;
+    text-decoration: none;
+    border-radius: 2px;
+}
+
+footer .footer1 .links ul li:hover{
+    background-color: #820507;
+    transition: 0.3s;
+}
+
+footer .footer1 p{
+    font-size: 15px;
+}
+
+footer .footer2{
+    width: 100%;
+    background-color: rgb(170, 5, 7);
+    float: left;
+    /*text-align: right;*/
+    padding: 20px 0;
+}
+
+footer .footer2 .copyright{
+    width: 80%;
+    float: left;
+    padding-top: 7px;
+    padding-left: 25px;
+    /*text-align: center;*/
+}
+
+footer .footer2 p{
+    display: inline-block;
+    color: #f9f7ed;
+    text-align: left;
+    margin: 0;
+    width: 40%;
+    font-size: 15px;
+    /*padding-right: 250px;*/
+}
+
+footer .footer2 .social{
+    width: 7%;
+    float: right;
+    padding-top: 2px;
+    /*text-align: center;*/
+    padding-right: 25px;
+}
+
+footer .footer2 .social a{
+    width:  25%;
+    float: right;
+    padding: 0 5px;
+    margin: 0;
+}
+
+footer .footer2 .social a img{
+    width: 100%;
+
+}

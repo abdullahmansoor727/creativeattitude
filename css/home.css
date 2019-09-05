@@ -1,0 +1,398 @@
+*{
+    font-family: arial;
+}
+
+body{
+    margin: 0;
+    background-color: #f9f7ed;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+
+header .header2 .logo{
+    float: left;
+    width: 25%;
+    margin: 10px 0;
+}
+
+header .header2 .logo img{
+    width: 100%;
+    margin: 7px 0 2px;
+}
+
+header .header2 .nav{
+    float: right;
+    width: 75%;
+    text-align: right;
+}
+
+header .header2{
+    float: left;
+    background-color: rgba(255, 255, 240,0.6);
+    width: 100%;
+    box-shadow: 5px 0 10px #000000;
+}
+
+header .header2 .nav ul{
+    list-style: none;
+    margin: 28px 0;
+}
+
+header .header2 .nav ul li{
+    display: inline-block;
+    font-size: 17px;
+}
+
+header .header2 .nav ul li a{
+    color: rgb(170, 5, 7);
+    text-decoration: none;
+    padding: 24px 0;
+    margin: 0 20px
+}
+
+header .header2 .nav ul li:last-child a{
+    border: 1px solid rgb(170, 5, 7);
+    padding: 7px 7px;
+    border-radius: 2px;
+
+}
+
+header .header2 .nav ul li:last-child a:hover{
+    color: #f9f7ed;
+    background-color: rgb(170, 5, 7);
+    border: 1px solid rgb(170, 5, 7);
+    transition: 0.3s;
+}
+
+.banner{
+    background-image: url("../img/elevator_overlay.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 700px;
+    background-attachment: fixed;
+}
+
+header .header2 .nav ul li a:hover{
+    /*background-color: rgba(191, 1, 5, 0.3);*/
+    border-bottom: 5px solid rgb(170, 5, 7);
+    transition: 0.3s;
+}
+
+header .header1{
+    background-color: rgb(170, 5, 7);
+    float:left;
+    width: 100%;
+    color: #f9f7ed;
+}
+
+header .header1 h3{
+    margin: 10px 0;
+    font-weight: normal;
+    font-size: 12px;
+    float: left;
+    width: 50%;
+}
+
+header .header1 .contactlinks{
+    float: right;
+    width: 50%;
+    margin: 8px 0;
+}
+
+header .header1 ul{
+    list-style: none;
+    margin: 0;
+    float: right;text-align: right;
+}
+
+header .header1 ul li{
+    display: inline;
+    color: #f9f7ed;
+    font-size: 12px;
+    margin: 0 10px;
+}
+
+header .header1 ul li img{
+    width: 3%;
+    position: relative;
+    top: 3px;
+    left: 10px;
+}
+
+section.products{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #AA0507;
+    align-content: center;
+    justify-content: center;
+    padding: 25px 0;
+    background-color: #f9f7ed;
+    /*box-shadow: 5px 0 10px #000000;*/
+
+}
+
+section.products .boxes{
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    margin: 50px auto;
+    outline: none;
+    /*box-shadow: 0 0 10px #000000 inset;*/
+    /*float: left;*/
+}
+
+section.products .elevator,
+section.products .escalator,
+section.products .hvac,
+section.products .mep{
+    width: 25%;
+    padding-top: 30px;
+    float: left;
+    border-radius: 5px;
+    border-bottom: 3px solid #f9f7ed;
+}
+
+section.products .elevator:hover,
+section.products .escalator:hover,
+section.products .hvac:hover,
+section.products .mep:hover{
+    background-color: rgba(170, 5, 7, 0.3);
+    /*color: #ffffff;*/
+    transition: 0.3s;
+    border-bottom: 3px solid #AA0507;
+}
+
+section.products img{
+    width: 50%;
+}
+
+.heading{
+    text-align: center;
+    /*float: left;*/
+    /*width: 50%;*/
+    margin: 0 auto;
+}
+
+.heading h1{
+    font-size: 40px;
+    margin: 0;
+    color: #AA0507;
+    font-weight: normal;
+    padding: 10px 25px;
+    border-bottom: 1px dotted rgb(170, 5, 7);
+    /*float: left;*/
+}
+
+.products .boxes h2{
+    font-weight: normal;
+}
+
+.banner .overlay{
+    width: 95%;
+    color: #f9f7ed;
+    float: left;
+    text-align: center;
+    margin: 10% 0;
+    padding: 2%;
+    border-radius: 10px;
+}
+
+.banner .overlay h1{
+    margin: 15px 0;
+    font-size: 35px;
+    font-weight: normal;
+    color: #f9f7ed;
+}
+
+.banner .overlay .jfi{
+    width: 10%;
+    margin: 15px auto;
+}
+
+.banner .overlay .jfi img{
+    width: 100%;
+}
+
+.banner .overlay a{
+    color: #f9f7ed;
+    text-decoration: none;
+    margin: 15px 5px;
+    padding: 10px 25px;
+    /*border: 1px solid #AA0507;*/
+    display: inline-block;
+    border-radius: 2px;
+    background-color: rgb(170, 5, 7);
+}
+
+.banner .overlay a:hover {
+    color: rgb(170, 5, 7);
+    background-color: #f9f7ed;
+    transition: 0.3s;
+}
+
+.motto{
+    background-image: url("../img/elevator1_overlay.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 700px;
+    background-attachment: fixed;
+}
+
+.motto .overlay{
+    width: 95%;
+    color: #f9f7ed;
+    float: left;
+    text-align: center;
+    margin: 18% 0;
+    padding: 2%;
+    border-radius: 10px;
+}
+
+
+.motto .overlay h1{
+    margin: 15px 0;
+    font-size: 50px;
+    font-weight: normal;
+    color: #f9f7ed;
+}
+
+.motto .overlay p{
+    width: 75%;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.motto .overlay a{
+    color: #f9f7ed;
+    text-decoration: none;
+    margin: 15px 5px;
+    padding: 10px 25px;
+    /*border: 1px solid #AA0507;*/
+    display: inline-block;
+    border-radius: 2px;
+    background-color: rgb(170, 5, 7);
+}
+
+.motto .overlay a:hover{
+    color: rgb(170, 5, 7);
+    background-color: #f9f7ed;
+    transition: 0.3s;
+}
+
+footer .footer1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgb(170, 5, 7);
+    color: #f9f7ed;
+    box-shadow: 5px 0 10px #000000;
+}
+
+footer .footer1 h1{
+    font-weight: normal;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 2px dotted #f9f7ed;
+    font-size: 20px;
+}
+
+footer .footer1 .company,
+footer .footer1 .links,
+footer .footer1 .location{
+    width: 29%;
+    /*background-color: rgba(255, 255, 240,0.3 );*/
+    padding: 10px;
+    margin: 25px 15px 0;
+    float: left;
+    /*text-align: center;*/
+
+}
+
+footer .footer1 .company img{
+    width: 100%;
+}
+
+footer .footer1 .links ul{
+    padding: 0;
+    margin: 0;
+}
+
+footer .footer1 .links ul li{
+    list-style: none;
+    padding: 10px 5px;
+    margin: 0;
+    font-size: 15px;
+    border-bottom: 1px dotted #f9f7ed;
+
+}
+
+footer .footer1 .links ul li a{
+    color: #f9f7ed;
+    text-decoration: none;
+    border-radius: 2px;
+}
+
+footer .footer1 .links ul li:hover{
+    background-color: #820507;
+    transition: 0.3s;
+}
+
+footer .footer1 p{
+    font-size: 15px;
+}
+
+footer .footer2{
+    width: 100%;
+    background-color: rgb(170, 5, 7);
+    float: left;
+    /*text-align: right;*/
+    padding: 20px 0;
+}
+
+footer .footer2 .copyright{
+    width: 80%;
+    float: left;
+    padding-top: 7px;
+    padding-left: 25px;
+    /*text-align: center;*/
+}
+
+footer .footer2 p{
+    display: inline-block;
+    color: #f9f7ed;
+    text-align: left;
+    margin: 0;
+    width: 40%;
+    font-size: 15px;
+    /*padding-right: 250px;*/
+}
+
+footer .footer2 .social{
+    width: 7%;
+    float: right;
+    padding-top: 2px;
+    /*text-align: center;*/
+    padding-right: 25px;
+}
+
+footer .footer2 .social a{
+    width:  25%;
+    float: right;
+    padding: 0 5px;
+    margin: 0;
+}
+
+footer .footer2 .social a img{
+    width: 100%;
+
+}
